@@ -1,0 +1,23 @@
+{
+  "name": "ms2/properties-in-listview",
+  "description": "Properties in Listview",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MS² [MediaService]"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MS2PropertiesInListView\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "MS2PropertiesInListView\\MS2PropertiesInListView",
+    "label": {
+      "de-DE": "Properties in Listview",
+      "en-GB": "Properties in Listview"
+    }
+  }
+}
